@@ -1,0 +1,4 @@
+#!/bin/bash
+# 2015-01-08 <k127@gmx.de>
+export ENV=dev
+source ~/.bashrc 2> /dev/null || source ~/.bash_profile

@@ -1,0 +1,17 @@
+{
+    "name": "k127/cse-server",
+    "description": "Crowd Sourced Elevation - Server",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "k127",
+            "email": "k127@gmx.de"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.4.3",
+        "doctrine/orm": "2.3.5",
+        "c9s/GetOptionKit": "2.0.3"
+    }
+}
