@@ -19,6 +19,14 @@ Setup nach dem Checkout des Projektes
 Virtual Machine starten
 -----------------------
 * `vagrant up` (in `.../trunk`)
+
+CSE Webservice aufrufen
+-----------------------
+    http://cse-api.dev/
+    
+REST-API testen
+---------------
+* PUT: `curl -vX PUT http://cse-api.dev/track -d '{"name": "foo", "points": [{"lat": 49.0, "lon": 12.0, "ele": 450.0}]}'`
   
 Update der PHP-Pakete mit *composer*
 ------------------------------------

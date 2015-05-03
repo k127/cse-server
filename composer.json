@@ -9,9 +9,14 @@
             "email": "k127@gmx.de"
         }
     ],
+    "autoload": {
+        "psr-0": {"Classes": "src/"}
+    },
     "require": {
-        "slim/slim": "2.4.3",
+        "slim/slim": "2.6.2",
         "doctrine/orm": "2.3.5",
-        "c9s/GetOptionKit": "2.0.3"
+        "c9s/GetOptionKit": "2.0.3",
+        "symfony/serializer": "2.6.6",
+        "ddeboer/data-import":"@stable"
     }
 }
